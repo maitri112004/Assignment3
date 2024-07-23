@@ -1,0 +1,74 @@
+body {
+    font-family: 'Forte';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f6f674;
+}
+
+header {
+    background: linear-gradient(45deg, #f22109, #e03614);
+    padding: 20px;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content img {
+    width: 200px;
+    height:200px;
+}
+
+.company-info {
+    text-align: left;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e64a19;
+}
+.marquee{
+    float:right;
+    
+}
